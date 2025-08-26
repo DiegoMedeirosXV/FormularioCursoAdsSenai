@@ -26,29 +26,33 @@ label{
     border: double 1px #207FCF;
 }
 
-#senha{
+/* #senha{
     background-color: transparent;
     border: double 1px #207FCF;
-}
+} */
 
-#confirma-senha{
+/* #confirma-senha{
     background-color: transparent;
     border: double 1px #207FCF;
-}
+} */
 
-input { 
+/* input { 
     color:  #207FCF; 
     background-color: transparent;
     border: double 1px #207FCF;
-}
+} */
 
 
 
 
 button{
-    color:  #20cf5a; 
-    background-color: transparent;
-    border: double 1px #207FCF;
+    margin-top: 15px;
+    background: #28a745;
+    color: white;
+    border: none;
+    cursor:  pointer;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 
