@@ -1,0 +1,57 @@
+ body{
+    
+    background-color: #ECF2F5;
+}
+
+h2{
+    text-align: center;
+    color: #207FCF;
+}
+
+label{
+    
+    display: block;
+    margin-top: 8px;
+    color: #207FCF;
+}
+
+#nome{
+    background-color: transparent;
+    border: double 1px #207FCF; 
+    
+}
+
+#email{
+    background-color: transparent;
+    border: double 1px #207FCF;
+}
+
+#senha{
+    background-color: transparent;
+    border: double 1px #207FCF;
+}
+
+#confirma-senha{
+    background-color: transparent;
+    border: double 1px #207FCF;
+}
+
+input { 
+    color:  #207FCF; 
+    background-color: transparent;
+    border: double 1px #207FCF;
+}
+
+
+
+
+button{
+    color:  #20cf5a; 
+    background-color: transparent;
+    border: double 1px #207FCF;
+}
+
+
+.borda-erro{
+    border: 2px solid red;
+}
