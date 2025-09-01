@@ -4,13 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FORMULARIO</title>
+    <title>CONSORTECH</title>
     <link rel="stylesheet" href="css/style.css">
+    <style src="css/style.css"></style>
+    <script src="./script/javaScript.js"></script>
 </head>
 <body>
+    <h1><img src="image.jpg" alt="" width="300" height="100"></h1>
     <div class="titulo">
-        <h2>Cadastro de Usuario</h2>
+        <h2>CADASTRO DE CARTA</h2>
     </div>
+
     <form action="" id="usuario-form" name="usuario-form">
         <div>
             <label for="nome">Nome</label>
@@ -20,6 +24,11 @@
         <div>
             <label for="email">E-mail</label>
             <input type="email" name="email" id="email" placeholder="email@exemplo.com" required maxlength="30">
+        </div>
+        
+        <div>
+            <label for="date">Date de Nascimento</label>
+            <input type="date" name="date" id="date" placeholder="" required maxlength="30">
         </div>
 
         <div>
@@ -31,13 +40,65 @@
             <label for="confirmaSenha">Confirmar Senha</label>
             <input type="password" name="confirmaSenha" id="confirmaSenha" required minlength="6" maxlength="20" placeholder="De 6 a 20 caracteres">
         </div>
+        <br><br>
+        <div class="opcao1">
+            <div>
+            <label for="opcao1">OPCAO DE PAGAMENTOS</label>
+            <br>
+            <input type="radio" name="opcao1" id="opcao1" required minlength="6" maxlength="20" placeholder="">
+            <span>1ª opção: Entrada + 5 anos</span>
+        </div>
+        
+    <div>
+            <label for="opcao1"></label>
+            <input type="radio" name="opcao1" id="opcao1" required minlength="6" maxlength="20" placeholder="">
+            <span>2ª opção: Entrada + 3 anos</span>
+        </div>
+
+        <div>
+            <label for="opcao1"></label>
+            <input type="radio" name="opcao1" id="opcao1" required minlength="6" maxlength="20" placeholder="">
+            <span>3ª opção: Pagar 2 parcelas em 1 pagamento</span>
+        </div>
+    </div>
+            <br>
+        <div class="checkbox">
+            <label for="checkbox">Modalidades de Veículos</label>
+            <input type="checkbox" name="checkbox" id="checkbox" required minlength="6" maxlength="20" placeholder="">
+            <span>Carro</span>
+        </div>
+
+        <div class="checkbox">
+            <label for="checkbox"></label>
+            <input type="checkbox" name="checkbox" id="checkbox" required minlength="6" maxlength="20" placeholder="">
+            <span>Moto</span>
+        </div>
+
+        <div class="checkbox">
+            <label for="checkbox"></label>
+            <input type="checkbox" name="checkbox" id="checkbox" required minlength="6" maxlength="20" placeholder="">
+            <span>Caminhão</span>
+        </div>
+
+        <div class="checkbox">
+            <label for="checkbox"></label>
+            <input type="checkbox" name="checkbox" id="checkbox" required minlength="6" maxlength="20" placeholder="">
+            <span>Ônibus</span>
+        </div>
+        
+       
 
         <div class="button">
             <br>
-            <button name="botao-enviar" type="button" onclick="enviarForm()">Enviar</button>
+            <button name="botao-enviar" type="button" onclick="enviarForm()">Enviar
+                <a href="resultados.html">
+                </a>    
+            </button>
         </div>
+
+
     </form>
 
-    <script src="script/javaScript.js"></script>
+    <!-- <script src="/script/javaScript.js"></script> -->
 </body>
 </html>

@@ -5,9 +5,9 @@ function enviarForm() {
 
     let email = document.getElementById('email').value;
     
+    let date = document.getElementById('date').value;
 
     let senha = document.getElementById('senha').value;
-    
 
     let confirmaSenha = document.getElementById('confirmaSenha').value;
 
@@ -23,11 +23,8 @@ function enviarForm() {
     }
     }
 
-    
-    
-
-
-    
 
 
 }
+
+

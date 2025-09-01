@@ -1,9 +1,22 @@
- body{
-    
+body {
     background-color: #ECF2F5;
-}
+    /* Flexbox para centralizar */
+    display: flex;
+    justify-content: center;  /* centraliza horizontal */
+    align-items: center;      /* centraliza vertical */
+    
+    /* Faz o body ter altura total da tela */
+    height: 100vh;
+    
+    /* Remove margens padrão do body */
+    margin: 0;
+    
+    /* Organiza conteúdo em coluna */
+    flex-direction: column;
+  }
 
 h2{
+    font-size: 12px;
     text-align: center;
     color: #207FCF;
 }
@@ -16,15 +29,73 @@ label{
 }
 
 #nome{
-    background-color: transparent;
-    border: double 1px #207FCF; 
-    
-}
-
-#email{
+    width: 300px;              
+    margin: 10px auto 0 auto;  
+    display: block;            
     background-color: transparent;
     border: double 1px #207FCF;
+    padding: 6px 8px;
+    box-sizing: border-box;    
+    border-radius: 50px;
 }
+
+#date{
+    width: 300px;              
+    margin: 10px auto 0 auto;  
+    display: block;            
+    background-color: transparent;
+    border: double 1px #207FCF;
+    padding: 6px 8px;
+    box-sizing: border-box;    
+    border-radius: 50px;
+}
+
+#confirmaSenha{
+    width: 300px;              
+    margin: 10px auto 0 auto;  
+    display: block;            
+    background-color: transparent;
+    border: double 1px #207FCF;
+    padding: 6px 8px;
+    box-sizing: border-box;    
+    border-radius: 50px;
+}
+
+#email {
+    width: 300px;              
+    margin: 10px auto 0 auto;  
+    display: block;            
+    background-color: transparent;
+    border: double 1px #207FCF;
+    padding: 6px 8px;
+    box-sizing: border-box;    
+    border-radius: 50px;
+}
+
+#senha{
+    width: 300px;              
+    margin: 10px auto 0 auto;  
+    display: block;            
+    background-color: transparent;
+    border: double 1px #207FCF;
+    padding: 6px 8px;
+    box-sizing: border-box;    
+    border-radius: 50px;
+}
+
+#opcao2{
+    max-width: 300px;
+    color: #28a745;
+}
+
+span{
+    color: #207FCF;
+}
+
+/* 
+# = ID 
+. = class 
+*/
 
 /* #senha{
     background-color: transparent;
@@ -45,14 +116,14 @@ label{
 
 
 
-button{
+button {
     margin-top: 15px;
     background: #28a745;
     color: white;
     border: none;
-    cursor:  pointer;
-    padding: 10px;
-    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 50px;
 }
 
 
